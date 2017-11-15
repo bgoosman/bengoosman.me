@@ -1,26 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>bengoosman.name</title>
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist\css\bootstrap.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body id="pulsing-multiplier">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <h1>bengoosman.name</h1>
-                <p>Hi, welcome to my site. I'm interested in fusing technology and performance.</p>
+            <div class="col-md-6">
+                <h1>ben goosman</h1>
+                <p>Hi, welcome to my site. I'm interested in performance, dance, and technology. I post generative art here <a href="https://www.instagram.com/bgoosman/">https://www.instagram.com/bgoosman/</a></p>
+                <p>Contact me here: bgoosman@gmail.com</p>
             </div>
         </div>
         <div class="row">
-            <iframe src="https://player.vimeo.com/video/212413494" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <iframe src="https://player.vimeo.com/video/208094030" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <iframe src="https://player.vimeo.com/video/222117035" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <iframe src="https://player.vimeo.com/video/230720015" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Lecture on the Permeability of Delayed Beanstalk Data within Polymorphous Heteroglossic Information Systems and Simulations</h3>
+                        <p class="card-text small">Presented at SH*T GOLD The Deep End 2017; July 16, 2017. Collaboration with Jordan Macintosh-Hougham. Trailer below. #openFrameworks</p>
+                    </div>
+                    <div class="card-img-bottom embed-container"><iframe src='https://player.vimeo.com/video/232267071' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Shadow Catcher</h3>
+                        <p class="card-text small">Juicy at Studio Current; June 8, 2017. Technologies used: Kinect, openFrameworks, Isadora, and Ableton</p>
+                    </div>
+                    <div class="card-img-bottom embed-container"><iframe src="https://player.vimeo.com/video/222117035" width="576" height="324" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Untitled</h3>
+                        <p class="card-text small">Dreamland Sinkhole; May 27, 2017. <a href="http://andralamusya.weebly.com/dreamland-sinkhole-may-2017.html">more info</a></p>
+                    </div>
+                    <div class='card-img-bottom embed-container'><iframe src="https://player.vimeo.com/video/232260760" width="576" height="324" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Fancy Fort Living</h3>
+                        <p class="card-text small">April 2017</p>
+                    </div>
+                    <div class="card-img-bottom embed-container"><iframe src="https://player.vimeo.com/video/214776601" width="576" height="324" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Three Stripes And You're Out</h3>
+                        <p class="card-text small">Next Fest NW 2016; December 9-11, 2016. Choreographed by Alisa Popova <a href="https://www.youtube.com/watch?v=K1jNzEWEWEQ">YouTube</a></p>
+                    </div>
+                    <div class="card-img-bottom">
+                        <a href="https://www.youtube.com/watch?v=K1jNzEWEWEQ"><img class="img-fluid" src="images/nextfestnw2016.jpg" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Fake Sleep Awake</h3>
+                        <p class="card-text small">May 6, 2017. Vanessa DeWolf collected audio samples, video, and performance artists together into one night. As DJ Drowzy, I mixed the audio together into a live ambient set. I also submitted two sleep themed videos.</p>
+                    </div>
+                    <img class="img-fluid" src="images/fakesleepawake-960.jpg" />
+                    <div class='embed-container'><iframe src="https://player.vimeo.com/video/208092510" width="576" height="384" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <div class='embed-container'><iframe src="https://player.vimeo.com/video/208094030" width="576" height="324" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
